@@ -4,6 +4,7 @@ import Logo from "../components/logo/Logo";
 import SearchBar from "../components/search/SearchBar";
 import PreviewEditor from "../components/preview-editor/PreviewEditor";
 import Done from "../components/done/Done";
+import Head from "next/head";
 
 const Index = () => {
   const [state, setState] = useState("default");
@@ -62,6 +63,9 @@ const Index = () => {
 
   return (
     <main className="app">
+      <Head>
+        <title>Voidtube</title>
+      </Head>
       <Logo state={state} />
       <section className="content">
         <SearchBar
