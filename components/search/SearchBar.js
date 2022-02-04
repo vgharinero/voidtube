@@ -10,7 +10,11 @@ const SearchBar = ({ handleInput, handleSearch }) => {
     handleInput
   );
 
-  useEffect(() => handleSearch(searchTerm), [searchTerm]);
+  useEffect(
+    () => handleSearch(searchTerm),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [searchTerm]
+  );
 
   return (
     <div className={styles.searchBar}>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./Timeline.module.css";
 
 const FRAME_SIZE_MULTIPLIER = 1.875;
@@ -48,7 +49,7 @@ const Timeline = ({
                   overflow: "hidden",
                 }}
               >
-                <img
+                <Image
                   alt="Timeline frame"
                   src={frame.url}
                   style={{

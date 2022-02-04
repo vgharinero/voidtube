@@ -27,6 +27,7 @@ const Index = () => {
   useEffect(() => {
     if (range.length > 0 && range[0] === 0 && range[1] === duration)
       setRange([]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [range]);
 
   const handleSearch = (searchTerm) => {

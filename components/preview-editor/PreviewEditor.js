@@ -17,14 +17,17 @@ const PreviewEditor = ({ video, handleRange, loading }) => {
 
   useEffect(() => {
     if (left !== "0px") setCurrentTime(range[0]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [left]);
 
   useEffect(() => {
     if (right !== "0px") setCurrentTime(range[1]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [right]);
 
   useEffect(() => {
     handleRange(range);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [range]);
 
   const timeline = (grayscale, resizable) => (

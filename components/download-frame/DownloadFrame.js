@@ -87,7 +87,7 @@ const DownloadFrame = ({
         {finished ? (
           !downloading && (
             <div className={styles.downloadTryAgain}>
-              Your file isn't downloading?
+              Your file is not downloading?
               <span
                 className={styles.downloadTryAgainButton}
                 onClick={() => downloadVideo(format)}
