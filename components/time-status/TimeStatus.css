@@ -1,0 +1,11 @@
+.time-status {
+  position: absolute;
+  bottom: 21px;
+  right: 24px;
+  color: var(--light);
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+}

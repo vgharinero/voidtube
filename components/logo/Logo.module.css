@@ -1,0 +1,46 @@
+.logo {
+  position: absolute;
+  transition: all 1s ease-in-out;
+  display: inline-block;
+}
+
+.centered {
+  text-align: center;
+}
+
+.centeredh1 {
+  font-family: AT Surt Exp;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 55px;
+  margin-bottom: 26px;
+  color: var(--semilight);
+}
+
+.centeredh2 {
+  font-family: Alliance No1;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--light);
+}
+
+.left {
+  left: 40px;
+}
+
+.lefth1 {
+  font-family: AT Surt Exp;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  color: var(--semilight);
+}
+
+.centeredh1 span:first-child,
+.lefth1 span:first-child {
+  color: var(--accent1);
+}

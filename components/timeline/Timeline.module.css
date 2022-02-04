@@ -1,0 +1,18 @@
+.timelineWrapper {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.resizable {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  height: 48px;
+}
+
+.timeline {
+  display: flex;
+  width: 542px;
+}
