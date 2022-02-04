@@ -3,7 +3,7 @@ import DownloadFrame from "../components/download-frame/DownloadFrame";
 import Logo from "../components/logo/Logo";
 import SearchBar from "../components/search/SearchBar";
 import PreviewEditor from "../components/preview-editor/PreviewEditor";
-import Done from "../components/Done/Done";
+import Done from "../components/done/Done";
 
 const Index = () => {
   const [state, setState] = useState("default");
